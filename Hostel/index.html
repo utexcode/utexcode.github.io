@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html> 
+
+<head>
+	<title>Хостел Тверь</title>
+	<meta charset="utf-8" />
+	<link rel=stylesheet type=text/css href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<!-- main -->
+<DIV class="main">
+  <!-- top_logo -->
+  <div class="top_logo clear">
+    <div class="wrap_0">
+      <div class="clear">
+        <!-- call -->
+        <div class="call btn left">Заказать звонок</div>
+        <!-- /call -->      
+        <!-- logo -->
+        <div class="logo left"></div>
+        <!-- /logo -->  
+        <!-- phone -->
+        <div class="right">
+          <div class="phone">
+            <span>(4822) 23 09 09</span>
+            <small>г. Тверь, пр-т Победы, 14</small>
+          </div>
+        </div>
+        <!-- /phone -->        
+      </div>    
+    </div>
+  </div>
+  <!-- /top_logo -->
+  <!-- top_form -->
+  <div class="top_form clear">
+    <div class="wrap_1 wrap_3">
+      <div class="form">
+        <form>
+          <div class="clear">
+            <div class="left">
+              <input type="text" placeholder="Ваше имя">
+              <input type="tel" placeholder="Телефон">
+              <div class="left date"><input type="date" placeholder="Дата заезда"><img></div>
+              <div class="right date"><input type="date" placeholder="Дата выезда"><img></div>
+            </div>  
+            <div class="right">
+              <div class="list"><input type="text" placeholder="Выберите тип номера"><img></div>
+              <textarea name="comments" cols="" rows="" placeholder="Комментарии"></textarea>
+            </div>
+          </div>
+          <div class="btn">Забронировать</div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- /top_form -->  	 
+  <!-- services -->
+  <div class="services clear">
+    <div class="wrap_1 wrap_2">
+      <h1>В нашем хостеле:</h1>
+        <!-- row -->
+        <div class="row clear">
+          <!-- item -->
+          <div class="item left">
+            <div><img src="images/ico_position.png"></div>
+            <p>Проживание<br>в центре города</p>
+          </div>
+          <!-- /item -->
+          <!-- item -->
+          <div class="item left">
+            <div><img src="images/ico_wifi.png"></div>
+            <p>Бесплатный<br>WI-FI</p>
+          </div>
+          <!-- /item -->  
+          <!-- item -->
+          <div class="item left">
+            <div><img src="images/ico_parking.png"></div>
+            <p>Парковочные места<br>под окнами</p>
+          </div>
+          <!-- /item -->  
+          <!-- item -->
+          <div class="item left">
+            <div><img src="images/ico_happy.png"></div>
+            <p>Приветливый и<br>отзывчивый персонал</p>
+          </div>
+          <!-- /item -->
+          <!-- item -->
+          <div class="item left">
+            <div><img src="images/ico_clean.png"></div>
+            <p>Ежедневная уборка<br>Чистое белье</p>
+          </div>
+          <!-- /item -->                                               
+        </div>
+        <!-- /row -->
+        <!-- row -->
+        <div class="row clear">
+          <!-- item -->
+          <div class="item left">
+            <div><img src="images/ico_coffee.png"></div>
+            <p>Чай и кофе<br>бесплатно</p>
+          </div>
+          <!-- /item -->
+          <!-- item -->
+          <div class="item left">
+            <div><img src="images/ico_tv.png"></div>
+            <p>Полный комплект<br>бытовой техники</p>
+          </div>
+          <!-- /item -->  
+          <!-- item -->
+          <div class="item left">
+            <div><img src="images/ico_security.png"></div>
+            <p>Охрана<br>24 часа</p>
+          </div>
+          <!-- /item -->  
+          <!-- item -->
+          <div class="item left">
+            <div><img src="images/ico_key.png"></div>
+            <p>Сейфовые<br>ячейки</p>
+          </div>
+          <!-- /item -->
+          <!-- item -->
+          <div class="item left">
+            <div><img src="images/ico_docs.png"></div>
+            <p>Отчетые<br>документы</p>
+          </div>
+          <!-- /item -->                                               
+        </div>
+        <!-- /row -->       
+    </div>
+  </div>
+  <!-- /services -->    
+  <!-- rooms -->
+  <div class="rooms clear">
+    <div class="wrap_1 wrap_2">
+      <h1>Выберите себе номер</h1>
+      <div class="content">  
+        <!-- row -->
+        <div class="row clear">
+          <!-- item -->
+          <div class="item left">
+            <div id="new"></div>
+            <h2>Берлин</h2>
+            <div class="photos">
+              <img src="images/room_1.jpg">
+              <div class="dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot" id="selected"></div>
+                <div class="price right">500 <small>руб.</small></div>
+              </div>
+            </div>
+            <h3>2-х местный номер</h3>
+            <div class="about">
+              <p class="ptn">Две одноярусные кровати; шкаф, стол, стулья, зеркало, TV.</p>
+            </div>
+            <div class="line"></div>
+            <div class="btn">Забронировать</div>
+          </div>
+          <!-- /item -->
+          <!-- item -->
+          <div class="item left">
+            <div id="new"></div>
+            <h2>Париж</h2>
+            <div class="photos">
+              <img src="images/room_2.jpg">
+              <div class="dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot" id="selected"></div>
+                <div class="price right">500 <small>руб.</small></div>
+              </div>
+            </div>
+            <h3>4-х местный номер</h3>
+            <div class="about">
+              <p class="ptn">Две двухъярусные деревянные кровати с прикроватными светильниками и розеткой, индивидуальные закрывающиеся шкафчики; стол, стулья, зеркало.</p>
+            </div>
+            <div class="line"></div>
+            <div class="btn">Забронировать</div>
+          </div>
+          <!-- /item -->
+          <!-- item -->
+          <div class="item left">
+            <div id="new"></div>
+            <h2>Стокгольм</h2>
+            <div class="photos">
+              <img src="images/room_3.jpg">
+              <div class="dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot" id="selected"></div>
+                <div class="price right">500 <small>руб.</small></div>
+              </div>
+            </div>
+            <h3>8-х местный номер</h3>
+            <div class="about">
+              <p class="ptn">Четыре двухъярусные деревянные кровати с прикроватными светильниками и розеткой, индивидуальные закрывающиеся шкафчики; стол, стулья, зеркало.</p>
+            </div>
+            <div class="line"></div>
+            <div class="btn">Забронировать</div>
+          </div>
+          <!-- /item -->                                        
+        </div>
+        <!-- /row --> 
+        <!-- row -->
+        <div class="row clear">
+          <!-- item -->
+          <div class="item left">
+            <div id="new"></div>
+            <h2>Вена</h2>
+            <div class="photos">
+              <img src="images/room_4.jpg">
+              <div class="dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot" id="selected"></div>
+                <div class="price right">500 <small>руб.</small></div>
+              </div>
+            </div>
+            <h3>2-х местный номер</h3>
+            <div class="about">
+              <p class="ptn">Две одноярусные кровати; шкаф, стол, стулья, зеркало, TV.</p>
+            </div>
+            <div class="line"></div>
+            <div class="btn">Забронировать</div>
+          </div>
+          <!-- /item -->
+          <!-- item -->
+          <div class="item left">
+            <div id="new"></div>
+            <h2>Амстердам</h2>
+            <div class="photos">
+              <img src="images/room_5.jpg">
+              <div class="dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot" id="selected"></div>
+                <div class="price right">500 <small>руб.</small></div>
+              </div>
+            </div>
+            <h3>4-х местный номер</h3>
+            <div class="about">
+              <p class="ptn">Две двухъярусные деревянные кровати с прикроватными светильниками и розеткой, индивидуальные закрывающиеся шкафчики; стол, стулья, зеркало.</p>
+            </div>
+            <div class="line"></div>
+            <div class="btn">Забронировать</div>
+          </div>
+          <!-- /item -->
+          <!-- item -->
+          <div class="item left">
+            <div id="new"></div>
+            <h2>Прага</h2>
+            <div class="photos">
+              <img src="images/room_6.jpg">
+              <div class="dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot" id="selected"></div>
+                <div class="price right">500 <small>руб.</small></div>
+              </div>
+            </div>
+            <h3>8-х местный номер</h3>
+            <div class="about">
+              <p class="ptn">Четыре двухъярусные деревянные кровати с прикроватными светильниками и розеткой, индивидуальные закрывающиеся шкафчики; стол, стулья, зеркало.</p>
+            </div>
+            <div class="line"></div>
+            <div class="btn">Забронировать</div>
+          </div>
+          <!-- /item -->                                        
+        </div>
+        <!-- /row -->        
+      </div>            
+    </div>
+  </div>
+  <!-- /rooms -->
+  
+  <!-- aboutus -->
+  <div class="aboutus clear">
+    <div class="wrap_1 wrap_3">
+      <h1>Несколько слов о нас</h1>    
+      <p class="ptn">Во время путешествий, деловых командировок в другой город возникает вопрос: где остановиться на пару-тройку дней с привычным комфортом?</p>
+      <p class="ptn">&nbsp;</p>
+      <p class="ptn">Мы рады предложить вам беспроигрышный вариант - уютный современный хостел с демократичными ценами в историческом центре Твери.</p>
+      <p class="ptn">&nbsp;</p>
+      <p class="ptn">Наш хостел предлагает забронировать номера в уютной, современной мини гостинице в Твери посуточно, где есть все самое необходимое для проживания. Мы предлагаем на выбор двух-, трех-, четырех- и шестиместные номера по выгодным ценам. Главная нашаособенность в том, что мы готовы принимать гостей круглосуточно.</p>                                  
+    </div>
+  </div>
+  <!-- /aboutus --> 
+  
+  <!-- nearus -->
+  <div class="nearus clear">
+    <div class="wrap_1 wrap_3">
+      <div class="near right">
+        <h1>Рядом с нашим хостелом</h1>  
+        <!-- row -->
+        <div class="row clear">
+          <!-- item -->
+          <div class="item left">
+              <img src="images/near_1.jpg">
+            <div class="banner">РК &laquo;Зеркало&raquo;</div>
+          </div>
+          <!-- /item -->  
+          <!-- item -->
+          <div class="item left">
+              <img src="images/near_2.jpg">
+            <div class="banner">Парк &laquo;Победы&raquo;</div>
+          </div>
+          <!-- /item -->             
+        </div>
+        <!-- /row -->  
+        <!-- row -->
+        <div class="row clear">
+          <!-- item -->
+          <div class="item left">
+              <img src="images/near_3.jpg">
+            <div class="banner">Суши-бар</div>
+          </div>
+          <!-- /item -->  
+          <!-- item -->
+          <div class="item left">
+              <img src="images/near_4.jpg">
+            <div class="banner">Театр кукол</div>
+          </div>
+          <!-- /item -->             
+        </div>
+        <!-- /row --> 
+        <!-- row -->
+        <div class="row clear">
+          <!-- item -->
+          <div class="item left hide"></div>
+          <!-- /item -->  
+          <!-- item -->
+          <div class="item left">
+              <img src="images/near_5.jpg">
+            <div class="banner">Магазины</div>
+          </div>
+          <!-- /item -->             
+        </div>
+        <!-- /row -->                                
+      </div>                         
+    </div>
+  </div>
+  <!-- /nearus -->  
+
+  <!-- gallery -->
+  <div class="gallery clear">
+    <div class="wrap_1">
+      <h1>Галерея</h1> 
+      <!-- scroll -->
+      <div class="scroll clear">
+        <div class="arrow left"></div>
+        <!-- content -->
+        <div class="content clear">
+            <div class="item left"><img src="images/gallery_1.jpg"></div>
+            <div class="item left"><img src="images/gallery_2.jpg"></div>                                               
+        </div>
+        <!-- /content -->
+        <div class="arrow right"></div>
+      </div>
+      <!-- /scroll -->          
+    </div>
+  </div>
+  <!-- /gallery -->  
+
+  <!-- feedback -->
+  <div class="feedback clear">
+    <div class="wrap_1 wrap_2">
+      <h1>Отзывы</h1>
+      <div class="content">  
+        <!-- row -->
+        <div class="row clear">
+          <!-- item -->
+          <div class="item left">
+            <div class="bubble">
+              <h3 class="ptn">Иван Петров</h3>
+              <p class="ptn">Очень уютно и тихо), все по домашнему, все вежливые и добрые) нам очень понравилось, спасибо)</p>
+            </div>
+            <img src="images/feedback_1.jpg">           
+          </div>
+          <!-- /item -->
+          <!-- item -->
+          <div class="item right">
+            <div class="bubble">
+              <h3 class="ptn">Сергей Нетрус</h3>
+              <p class="ptn">Хотелось бы сказать огромное спасибо), очень понравилось в вашем хостеле, обстановка и администраторы просто Замечательные!!</p>
+            </div>
+            <img src="images/feedback_2.jpg">
+          </div>
+          <!-- /item -->                                      
+        </div>
+        <!-- /row --> 
+        <div class="btn call">Оставить отзыв</div>
+      </div>            
+    </div>
+  </div>
+  <!-- /feedback -->
+  
+  <!-- book -->
+  <div class="book clear">
+    <div>
+      <img class="left">
+      <h1 class="left">Забронировать номер</h1>
+    </div>
+  </div>
+  <!-- /book -->  
+  
+  <!-- contacts -->
+  <div class="contacts clear">
+    <div class="wrap_1 wrap_3">
+      <h1>Как до нас добаться</h1>
+      <div class="how">
+        <div class="clear">
+          <div><b>Адрес:</b> г. Тверь, ул. Горького, д. 45</div>
+          <div><b>Телефон:</b> <span>+7 904 345 78 78</span></div>
+        </div>  
+        <p class="ptn">От авто и ж/д вокзалов: на автобусе 10 до остановки 6-я Пролетарская, далее пешком до пересечения с улицей Коробкова, на перекрестке налево. Пешком от от авто и ж/д вокзалов по проспекту Чайковского, не сворачивая, один километр до хостела.</p>
+        <div><b>Общее время в пути:</b> 20 минут.</div>
+      </div>
+    </div>
+  </div>
+  <!-- /contacts -->  
+  
+  <!-- map -->
+  <div class="map clear">
+
+  </div>
+  <!-- /map -->  
+  
+  <!-- bottom -->
+  <div class="bottom clear">
+
+  </div>
+  <!-- /bottom -->        
+</DIV>
+<!-- /main -->
+</body>
+</html>

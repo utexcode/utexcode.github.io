@@ -1,0 +1,60 @@
+*, html, body, h1, h2, h3, h4, h5, h6, a, img, ul, ol, li, div, span, b, time,
+u, p, input, label, textarea, select, option { color: #000;
+                                               font-family: "Open Sans", sans-serif;
+											   font-size: 14px;
+											   line-height: 22px;
+											   font-weight: normal;
+											   margin: 0;
+											   padding: 0;
+											   position: relative;
+											   border: 0;
+											   vertical-align: baseline;}	
+											   
+html, body { min-height: 100%;}											   									   
+											   
+body { margin: auto;
+	   height: 100%;}  	   	  										   
+
+h1 { font-size: 25px;
+     font-weight: bold;
+	 line-height: 30px;
+	 margin: 20px 0;
+	 }	
+	 
+h2,
+h2 * { font-size: 20px;
+     font-weight: 400;
+     color: #333; 
+	 line-height: 22px;
+	 margin: 22px 0;
+	 border-bottom: #e6e6e6 1px solid;}	  
+	
+b { font-weight: bold;}	
+	 
+a { text-decoration:none; border: none;}	 
+
+img { max-width: 700px;
+      border: #e6e6e6 1px solid;
+	  margin-left: 20px;}	
+
+.left { float: left;}
+
+.right { float: right;}
+
+.clear:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.main { width: 800px;
+        margin: auto;}						  
+	
+						 
+		   					   						   					 											 					 						 

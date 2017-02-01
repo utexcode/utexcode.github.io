@@ -1,0 +1,222 @@
+*, html, body, h1, h2, h3, h4, h5, h6, a, img, ul, ol, li, div, span, b, time,
+u, p, input, label, textarea, select, option { color: #ffffff;
+                                               font-family: "GregorFont";
+											   font-size: 13px;
+											   line-height: 1.2;
+											   font-weight: normal;
+											   margin: 0;
+											   padding: 0;
+											   position: relative;
+											   border: 0;
+											   vertical-align: baseline;}	
+											   
+*, *:before, *:after {
+    box-sizing: border-box;
+}											   
+											   
+@font-face {
+    font-family: GregorFont;
+    src: url(gregor.ttf);
+	font-style: normal;
+}
+
+@font-face {
+    font-family: MartaFont;
+    src: url(marta_italic.otf);
+	font-style: italic;
+}										   									   
+											   
+body { background: #c6bcb3; 
+       width: 100%;
+	   margin: 0;}  	   	  										   
+
+h1 { font-size: 1.15em;
+	 text-transform: uppercase;} 	 
+	
+b { font-weight: bold;}	
+	 
+a {}	 
+
+p { font-family: "Times New Roman", serif;
+    font-style: italic;
+	font-size: 0.98em;
+	margin-top: 24px;}	
+
+.left { float: left;}
+
+.right { float: right;}
+
+.clear:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.one_col:hover *,
+.two_col:hover * { cursor: pointer;}
+
+/* main */
+.main { width: 100%;
+        height: 100%; 
+		background: url(images/background.jpg) center no-repeat;}	
+		
+.top { height: 100%;}		
+		
+.main_left { position: absolute;
+             top: 0;
+			 left: 0;
+			 width: 19%; 
+			 height: 100%;}
+			 
+.main_right { width: 81%; 
+              height: 100%; 
+			  margin-left: 19%;}
+
+.main_left:hover { background: #000000;
+                   opacity: 0.6;}			   
+				   
+.main_left:hover .menu { display: inherit;}				   
+
+.main_left .logo { background: url(images/logo.png) center top no-repeat;
+                   background-size: 80% auto;
+				   padding-bottom: 50%;
+				   margin: auto;
+				   margin-top: 2.8em;}
+				   
+.main_left .menu { margin: auto; 
+                   width: 100%; 
+				   text-align: center;
+				   margin-top: 8em;
+				   display: none;}
+
+.main_left .menu ul { list-style: none;}
+
+.main_left .menu ul li { text-transform: uppercase;
+                         font-family: MartaFont;
+					     color: #bbbbbb;
+					     font-size: 1.12em;
+						 margin: 3.5em auto;
+						 cursor: pointer;}
+						 
+.main_left .menu ul li#in { text-decoration: underline;
+                            color: #ffffff;}
+							
+.col_1, 
+.col_2 { width: 50%; min-width: 50%;}	
+
+.one_col, 
+.two_col { width: 100%; overflow: hidden; height: 0; padding-bottom: 49%;}
+
+.big {height: 0; padding-bottom: 100%;}
+
+.one_col, 
+.small { text-align: center; 
+         z-index: 1111;
+		 overflow: hidden;}
+		 
+.small { width: 50%;}	
+
+.hover { display: none;}
+
+.one_col:hover .hover, 
+.two_col:hover .hover { display: inherit; 
+                        background: #000000;
+                        opacity: 0.5; 
+		                z-index: 99; 
+		                position: absolute; 
+		                top: 0;
+                        width: 100%; 
+		                height: 100%;}			   			   
+
+.one_col img { width: 100%;}
+			  
+.two_col img { width: 50%;}
+			   
+.mirrow img { margin-left: 50%;}			   			   
+
+/* about */
+.about { position: absolute;
+         top: 35%;
+         z-index: 100;
+		 width: 100%;
+		 text-align: center;}		 
+		 
+.about#long { top: 5%;}		
+
+#long h1 { margin-top: 45px;} 
+
+.about#long_h1 { top: 25%;}	
+		 
+.about .more { font-size: 0.94em;
+               border: #FFFFFF 2px solid;
+			   width: 109px;
+			   height: 37px;
+			   line-height: 33px;
+			   margin-top: 45px;
+			   display: inline-block;
+			   text-transform: uppercase;}
+			   
+.two_col .about { width: 50%;
+                  left: 50%;}	
+				  
+.mirrow .about { left: 0;}				  			  			   
+			   
+.stamp { width: 71px;
+         height: 71px;
+		 margin: 55px auto 0 auto;}  
+		 
+.x { background: url(images/x.png) top left no-repeat;
+     width: 28px;
+	 height: 26px;
+	 margin: 40px auto 0 auto;}		 		 
+		 
+.st1 { background: url(images/stamp_1.png) top left no-repeat;}		 			   		 		   									 				.st2 { background: url(images/stamp_2.png) top left no-repeat;}	
+.st3 { background: url(images/stamp_3.png) top left no-repeat;}	
+.st4 { background: url(images/stamp_4.png) top left no-repeat;}	   
+
+/* bottom */	  
+.bottom { background: #000000;
+          opacity: 0.6;
+		  height: 44px;
+		  width: 100%;
+		  position: absolute;
+		  bottom: -44px;
+		  overflow: hidden;
+		  padding: 5px 45px;}		  
+		  
+.bottom div { font-family: MartaFont; 
+              font-size: 0.8em; 
+			  color: #c1c1c1;
+			  text-transform: uppercase;}	
+
+.bottom div small { font-size: 0.7em; color: #c1c1c1;}	
+
+.bottom div.right { text-align: right;}  
+
+/* media */
+@media only screen and (max-width:80em){
+	.col_2 { clear: both;}
+	.col_1, .col_2 { width: 100%;}
+}
+
+@media only screen and (max-width:35em){
+	.about { display: none;}
+	.main_left .logo { margin-top: 1.5em;}
+	.main_left .menu { margin-top: 4em;}
+	.main_left .menu ul li { font-size: 0.7em;}
+	.bottom div { font-size: 0.5em;}
+}
+
+@media only screen and (max-width:25em){
+	.main_left .menu ul li { font-size: 0.5em;}
+	.bottom { padding: 5px;}
+	.bottom div { float: none;}
+	.bottom div.right { text-align: left;} 
+}
+				 			   		  					    
+						  
+	
+						 
+		   					   						   					 											 					 						 

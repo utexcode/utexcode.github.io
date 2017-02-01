@@ -1,0 +1,273 @@
+*, html, body, h1, h2, h3, h4, h5, h6, a, img, ul, ol, li, div, span, b, time,
+u, p, input, label, textarea, select, option { color: #d4e4f5;
+                                               font-family: Ubuntu, Helvetica, Arial, sans-serif;
+											   font-size: 18px;
+											   line-height: 19px;
+											   font-weight: normal;
+											   margin: 0;
+											   padding: 0;
+											   position: relative;
+											   border: 0;
+											   vertical-align: baseline;}										   
+											   
+body { background-color: #133c7f; 
+       width: 1238px;
+	   margin: auto;}  	   	  										   
+
+h1, h2, h3 { color: #133c7f;}
+
+h1 { font-size: 24px;
+	 margin: 4px 0 20px 0; 
+	 line-height: 31px;}
+	 
+h2 { font-size: 17px;
+     padding: 9px 0 9px 18px;}
+	 
+h3 { font-size: 18px;}	 	 
+	
+b { font-weight: bold;}	
+	 
+a { color: #ffffff;
+    text-decoration: none;}	 
+
+p { }	
+
+input { color: #c3bfb3;
+        font-size: 12px;
+		height: 25px;}
+
+.left { float: left;}
+
+.right { float: right;}
+
+.clear:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* bg */
+.bg { background-color: #ffffff;}
+.bg_top { background: url(images/bg_top.jpg) top left no-repeat;}
+.bg_bottom { }
+
+.main { padding: 0px 115px 0 142px; 
+        height: 100%;}
+
+/* top */	
+div.top { margin-right: 28px;}
+
+div.logo { background: url(images/logo.png) no-repeat;
+           width: 406px;
+		   height: 79px;}
+		   
+div.contacts { margin-top: 30px;}
+
+.contacts span { color: #ffffff;
+                 font-size: 18px;
+				 line-height: 40px;}
+				 
+.contacts span b { color: #ffffff;
+                   font-size: 25px;}				 
+
+div.mail { margin: 0 0 0 20px;}
+div.mail img:first-child { margin-right: 8px;}		   
+div.mail img { cursor: pointer;}
+
+.menu { background: url(images/bg_topmenu.png) top left no-repeat;
+        width: 462px;
+		height: 50px;}
+		   
+.menu ul { list-style: none;
+           margin-top: 11px;}
+		  
+.menu ul li { float: left;
+              padding-right: 18px;
+			  background: url(images/line.png) right no-repeat;
+			  line-height: 26px;
+			  margin-left: 16px;}
+			  
+.menu ul li:last-child { background: none;
+                         padding-right: 0px;}			  			   		   				   		 
+		  
+.menu ul #in a { cursor: default;}
+
+.search { background: url(images/bg_search.png) repeat-x;
+          border-radius: 8px;
+		  height: 50px;}	
+		  
+.search .inner { margin: 7px 8px 9px 8px;}		  	  
+
+.search input,
+.search .line,
+.search .find   { float: left;}
+		  
+.search .input { background: #ffffff;
+				 padding: 4px 22px 0 14px;
+				 height: 30px;
+				 border-radius: 5px;}
+				  
+.search .line { margin: 0 14px;
+                background: url(images/line.png) no-repeat;
+				width: 1px;
+				height: 26px;}		
+				
+.search .find { background: url(images/search.png) left bottom no-repeat;
+                color: #133c7f;
+				padding: 4px 0 0 30px;
+				cursor: pointer;}						  				  	  
+
+.top .search { width: 360px;}	
+			   
+.top .search input { width: 180px;}		   	  	  
+
+/* center */
+.center { margin-top: 47px;}
+
+/* content */
+.left_menu { width: 248px;}	
+
+.left_menu ul,
+.bottom_menu ul { list-style: none;}	
+
+.left_menu .with { background-color: #eeeeee;
+                   border-radius: 5px;}
+				   
+.left_menu .with div { background: #dfdfdf url(images/arrow.png) right center no-repeat; 
+                       border-radius: 5px;
+					   cursor: pointer;}	
+															   
+.left_menu h2 { max-width: 197px;
+                cursor: pointer;}
+
+.left_menu .with h2 { background-color: #eeeeee;
+                      border-bottom-left-radius: 5px;
+					  border-top-left-radius: 5px; }
+
+.left_menu #level_2	ul { margin: 9px 0 9px 34px;
+                         max-width: 180px;}
+						 
+.left_menu #level_2	li { font-size: 15px;
+						 color: #000e24;
+						 line-height: 25px;
+						 cursor: pointer;}	
+						 
+.left_menu #level_2	li.in { cursor: default;
+                            font-weight: bold;}						 					 			 									
+											  													    
+.content { margin: 0 0 0 37px;}
+
+/* catalog */
+#catalog .name { margin: 0 0 0 10px;}
+
+#catalog .name h3 { float: left;
+                    width: 278px;}
+
+#catalog .search { margin: 8px 0 0 0; 
+                   width: 695px;}
+
+#catalog .search .input { float: left;}
+
+#catalog .search #list .input { padding-right: 0px;
+                                margin-right: 4px;}
+								
+#catalog .search #list input { width: 195px;}							
+
+#catalog .search #list .line { margin-right: 0;
+                               width: 1px;}
+
+#catalog .search #list .find { background: url(images/arrow_blue.png) center no-repeat;
+                               padding: 0;
+							   height: 32px;
+							   width: 42px;}
+							   
+#catalog .search #list #fcat { width: 124px;
+                               margin-right: 0;}							   
+							   
+#catalog .search #list #fcat .find { background: url(images/search.png) left bottom no-repeat;
+                                     padding: 4px 0 0 30px;
+									 margin-left: 5px;
+							         height: auto;
+							         width: auto;}
+									 
+#catalog .item { background: url(images/border_catalog.png) top left no-repeat;
+                 width: 215px;
+				 height: 263px;
+				 margin: 28px 25px 0 0;
+				 float: left;
+				 cursor: pointer;}
+				 
+#catalog .item_row .item:last-child { margin-right: 0px;}	
+
+#catalog .item_row #none { background: none; cursor: default;}
+
+#catalog .item img { width: 195px;
+                     height: 193px;
+					 padding: 9px 10px 0px 10px;}	
+					 
+#catalog .item h3 { background-color: #ffffff;
+                    height: 52px;
+					line-height: 50px;
+					margin: -3px 10px 11px 10px;
+					text-align: center;}	
+					
+/* partners */	
+.partners { margin: 75px 0 0 0;}
+								 		 									 							   
+.partners h3 { font-weight: bold;}
+
+.partners .lenta { height: 185px;
+                   margin: 32px 67px 30px 32px;}					  				   
+
+.partners .lenta div.left,
+.partners .lenta div.right { width: 19px;
+							 height: 190px;
+							 cursor: pointer;}
+					   
+.partners .lenta div.left { background: url(images/arrow_left.png) center no-repeat;
+                            margin-right: 48px;}
+							
+.partners .lenta div.right { background: url(images/arrow_right.png) center no-repeat;
+                             margin-left: 48px;}	
+							 
+.partners .lenta .plogo { height: 190px;
+                          float: left;
+						  width: 187px;
+						  text-align: center;}
+						  
+.partners .lenta .plogo img { cursor: pointer;}	
+
+/* bottom */	  
+.bottom { background:  #133c7f url(images/bg_bottom.jpg) bottom left no-repeat;
+          min-height: 174px;
+		  padding: 47px 28px 50px 0;}
+		  
+.bottom_menu { margin-bottom: 30px;}		  
+		  
+.bottom_menu li { cursor: pointer;
+                  margin-right: 60px;}				  	  
+		  
+.bottom_menu h3 { color: #d4e4f5;
+                  font-weight: bold; }
+				  
+.bottom_menu .level_2 ul { margin-top: 30px;}				  	
+				  
+.bottom_menu .level_2 li { margin: 0;
+                           line-height: 28px;}		
+						   
+.bottom .contacts { margin-top: 0;}	
+
+.bottom .contacts span { display: block;
+                         line-height: 27px;
+						 float: left;
+						 text-align: right;
+						 background: url(images/phone1.png) top left no-repeat;
+						 min-width: 180px;}		
+						 
+.bottom .search input { width: 275px;}						 			   		  					    
+						  
+	
+						 
+		   					   						   					 											 					 						 
